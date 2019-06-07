@@ -1,0 +1,115 @@
+#masthead {
+  background: #cc0000;
+
+}
+#logo-masthead-salem > div > div >img{
+    filter: drop-shadow(0 0 30px #333);
+}
+#q {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: url(http://slmtest.sals.edu/wp-content/uploads/2019/06/searchArtboard-1.svg) 5px 10% no-repeat #fff;
+  padding: 6px 8px 6px 43px;
+  font-weight: 700;
+  color: #333;
+  outline: 0;
+  width: 290px;
+  margin: 0 5px 0 0
+}
+
+#search-button {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #fff;
+  border: 0;
+  padding: 8px 13px;
+  font-weight: 700;
+  color: #cc0000;
+  outline: 0;
+  margin: 1% 0% 0% 0%;
+}
+
+.container{
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+.flex-container{
+	display:flex;
+  justify-content: flex-end;
+}
+.item{
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+}
+.item a{
+	color: #fdfffc;
+}
+.fa{
+  margin-right:.3em;
+  color: #fdfffc;
+}
+/*Library Horizontal News*/
+.pmeta{
+  display: none !important;
+}
+
+/*Hours Plugin */
+#hours{
+  float: right;
+  font-size:1.2em;
+}
+span.op-open{
+	color: #FFFEB0;
+}
+span.op-closed{
+	color:#fdfffc;
+}
+.op-today{
+  color: #fdfffc;
+}
+.op-next-period{
+  color: #fdfffc;
+}
+
+/*Panel top padding*/
+.panel-row-style{
+  padding:3px 25px;
+}
+
+#mastRight{
+  float:right;
+}
+#masthead .hgroup {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.main-navigation ul li{
+  font-size: 20px;
+}
+.entry-content{
+  font-size: 1.5em;
+}
+h1.entry-title{
+  font-size: 3em !important;
+}
+
+footer.fa{
+  color: #cc0000;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px) {
+  #logo-masthead-salem > div > div >img{
+  	margin:auto;
+	}
+  .flex-container{
+	display:flex;
+  flex-wrap:wrap;
+}
+  
+}
