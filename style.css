@@ -75,6 +75,10 @@ span.op-closed{
   color: #fdfffc;
 }
 
+.menu-main-menu-container{
+  width:145%;
+}
+
 /*Panel top padding*/
 .panel-row-style{
   padding:3px 25px;
@@ -111,5 +115,5 @@ footer.fa{
 	display:flex;
   flex-wrap:wrap;
 }
-  
+
 }
